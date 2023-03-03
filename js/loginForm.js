@@ -6,17 +6,17 @@ function loginForm() {
     return(
         <div className='wrapper d-flex align-items justify-content-center w-100'>
             <div className='login'>
-            <h2>Login</h2>
+            <h2 className='mb-3'>Login</h2>
                 <form>
-                    <div className='form-group'>
+                    <div className='form-group mb-2'>
                         <label htmlFor='user'>Usuario</label>
                         <input type='email'></input>
                     </div>
-                    <div className='form-group'>
+                    <div className='form-group mb-2'>
                         <label htmlFor='pass'>Contraseña</label>
                         <input type='password'></input>
                     </div>
-                    <div className='form-group'>
+                    <div className='form-group mb-2'>
                         <input type='checkbox'></input>
                         <label htmlFor='check'>Recordarme</label>
                     </div>
